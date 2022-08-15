@@ -1,0 +1,186 @@
+@media(max-width:1200px){
+    .container{
+        padding: 1rem 6%; 
+    }
+    .header{
+        padding: 1rem 6%;
+    }
+
+}
+
+
+
+@media(max-width:768px){
+    html{
+        font-size: 70%;
+    }
+    .container{
+        padding: 1rem 3%;
+    }
+    .header{
+        padding: 1rem 3%;
+    }
+    .header a{
+        padding: 0rem .8rem;
+    }
+    .navbar.active{
+        left: 0rem;
+    }
+    .navbar{
+        position: absolute;
+        top: 0;
+       background-color: var(--light-black);
+       z-index: 1000;
+       height: 100vh;
+       left: -100rem;
+       padding-top: 20%;
+      text-align: center;
+    }
+    .navbar a{
+        display: block;
+        color: rgb(211, 211, 211) !important;
+        padding: .5rem !important;
+        width: 20rem;
+        font-size: 1.4rem;
+    }
+    .navbar a:hover{
+        color: var(--orange-color) !important;
+    }
+    .navbar .home-active{
+        color: var(--orange-color) !important;
+    }
+
+    .navbar .fas{
+        display: block;
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .header .fas{
+        display: block;
+         }
+        #menu-btn{
+          display: inline-block;
+          font-size: 1.7rem;
+         }
+        
+    .home .area{
+flex-direction: column;
+gap: 2rem;
+    }
+
+    .home .area .content{
+        text-align: left;
+        width: 100%;
+        gap: 2rem;
+    }
+    .about .area{
+        flex-direction: column;
+gap: 2rem;
+    }
+    .about .area .content{
+        text-align: left;
+        width: 100%;
+        gap: 2rem;
+    }
+
+
+    .skills .area{
+        flex-direction: column;
+gap: 2rem;
+    }
+    .skills .area .content{
+        text-align: left;
+        width: 100%;
+        gap: 2rem;
+    }
+    .skills .area .experience{
+        width: 100%;
+    }
+    .services .area{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       
+    }
+    .portfolio .area{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        
+    }
+    .portfolio .area .box{
+        width: 100%;
+    }
+    .contact .area{
+        flex-direction: column;
+
+    }
+
+    .map{
+        width: 100%;  
+        height: 20rem;
+    }
+
+    .contact .area .form .box{
+        width: 100%;  
+    }
+    
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+    html{
+        font-size: 95%;
+    }
+    .container{
+        padding: 1rem 3.5%;
+    }
+    .header{
+        padding: 1rem 3.5%;
+    }
+    .services .area{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+     }
+     .portfolio .area{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        
+    }
+
+    .portfolio .area .box {
+        width: 100%;
+    }
+    .footer .fas{
+        display: none;
+    }
+    .about .image img {
+        width: 20rem;
+        border-left: 3px solid  var(--orange-color);
+        border-right: 3px solid  var(--orange-color);
+        border-radius: 50%;
+    }
+    .about .image .social-icon i{
+        
+        width: 40px;
+        height: 40px;
+        padding: .9rem;
+       
+    }
+}
